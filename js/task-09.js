@@ -3,4 +3,12 @@
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
-const button = document.getElementsByClassName("change-color")
+const buttonEl = document.querySelector("button");
+let spanEl = document.querySelector("span");
+console.log(buttonEl);
+console.log(spanEl);
+
+buttonEl.addEventListener("click", () => {
+
+  getRandomHexColor.textContent = spanEl.textContent;
+});
