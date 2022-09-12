@@ -19,7 +19,7 @@ console.log(ulElement);
 const liElem = images
   .map((image) => {
     const { url, alt } = image;
-    const img = `<li class="gallery-item"> <img  src="${url}" alt = "${alt}"> </li>`;
+    const img = `<li class="gallery-item"> <img class="gallery-img" src="${url}" alt = "${alt}"> </li>`;
     return img;
   })
   .join(" ");
