@@ -49,14 +49,14 @@ form.addEventListener("submit", handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
   const {
-    elements: { email, password }
+    elements: { password, email,}
   } = event.currentTarget;
 
   if (email.value === "" || password.value === "") {
     return alert("будь-ласка заповніть всі поля введення!");
   }
 
-  console.log(`Login: ${email.value}, Password: ${password.value}`);
+  
   event.currentTarget.reset();
 
 }

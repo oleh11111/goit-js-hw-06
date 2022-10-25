@@ -7,6 +7,7 @@ function getRandomHexColor() {
 const buttonEl = document.querySelector("button");
 const bodyEl = document.querySelector("body");
 const spanEl = document.querySelector("span");
+
 console.log(buttonEl);
 console.log(spanEl);
 
