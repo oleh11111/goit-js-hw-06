@@ -1,6 +1,5 @@
 const categoriesList = document.querySelector('ul#categories');
 const elementsOfCategories = categoriesList.children;
-// console.log(elementsOfCategories);
 
 console.log('Number of categories:', elementsOfCategories.length);
 
@@ -10,5 +9,5 @@ for (const categorieItem of elementsOfCategories) {
 
   console.log('Category: ', h2Elements[0].textContent);
   console.log('Elements: ', liElements.length);
-  // console.log(categorieItem);
+
 }

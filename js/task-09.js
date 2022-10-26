@@ -8,12 +8,11 @@ const buttonEl = document.querySelector("button");
 const bodyEl = document.querySelector("body");
 const spanEl = document.querySelector("span");
 
-console.log(buttonEl);
-console.log(spanEl);
 
-buttonEl.addEventListener("click", () => {
+
+ buttonEl.addEventListener("click", () => {
   const color = getRandomHexColor();
-  console.log(color);
+  
   spanEl.textContent = color;
   bodyEl.style.backgroundColor = color;
 });
