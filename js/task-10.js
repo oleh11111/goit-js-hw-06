@@ -35,7 +35,7 @@ const divEl = document.getElementById("boxes");
 
 createButton.addEventListener("click", () => {
   const value = parseInt(input.value);
-  console.log(value);
+ 
   divEl.append(...createBoxes(value));
 });
 destroyButton.addEventListener("click", () => {
